@@ -37,7 +37,7 @@ struct ContentView: View {
                 }
                 .tag(3)
             
-            ShopView()
+            MyView()
                 .tabItem {
                     Image(systemName: "person.crop.circle.fill")
                 }
