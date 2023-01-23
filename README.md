@@ -1,5 +1,5 @@
 # Instagram Clone Coding
-SwiftUI 로 Instagram 을 클론해보자!
+**SwiftUI**로 **Instagram**을 클론해보자!
 
 1. Home
 
