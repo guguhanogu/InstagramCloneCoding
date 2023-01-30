@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34BC35712988185E000DCBC7 /* HomeNaviBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BC35702988185E000DCBC7 /* HomeNaviBar.swift */; };
 		34CD4709296D765900516044 /* InstagramApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD4708296D765900516044 /* InstagramApp.swift */; };
 		34CD470B296D765900516044 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD470A296D765900516044 /* ContentView.swift */; };
 		34CD470D296D765C00516044 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34CD470C296D765C00516044 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34BC35702988185E000DCBC7 /* HomeNaviBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNaviBar.swift; sourceTree = "<group>"; };
 		34CD4705296D765900516044 /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34CD4708296D765900516044 /* InstagramApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramApp.swift; sourceTree = "<group>"; };
 		34CD470A296D765900516044 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				34CD4727296D778300516044 /* HomeView.swift */,
+				34BC35702988185E000DCBC7 /* HomeNaviBar.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				34CD473F296D8AA100516044 /* CovidInfoCenterView.swift in Sources */,
 				34CD472F296D8A1600516044 /* SettingView.swift in Sources */,
 				34CD4743296D8D2C00516044 /* MyMenuItem.swift in Sources */,
+				34BC35712988185E000DCBC7 /* HomeNaviBar.swift in Sources */,
 				34CD473B296D8A8500516044 /* BestFriendsView.swift in Sources */,
 				34CD4745296D9A0500516044 /* MyMoreAccountsView.swift in Sources */,
 				34CD4728296D778300516044 /* HomeView.swift in Sources */,
