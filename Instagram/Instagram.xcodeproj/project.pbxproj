@@ -28,6 +28,7 @@
 		34CD473F296D8AA100516044 /* CovidInfoCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD473E296D8AA100516044 /* CovidInfoCenterView.swift */; };
 		34CD4741296D8BCB00516044 /* MyMenuContentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD4740296D8BCB00516044 /* MyMenuContentsView.swift */; };
 		34CD4743296D8D2C00516044 /* MyMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD4742296D8D2C00516044 /* MyMenuItem.swift */; };
+		34CD4745296D9A0500516044 /* MyMoreAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34CD4744296D9A0500516044 /* MyMoreAccountsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		34CD473E296D8AA100516044 /* CovidInfoCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidInfoCenterView.swift; sourceTree = "<group>"; };
 		34CD4740296D8BCB00516044 /* MyMenuContentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMenuContentsView.swift; sourceTree = "<group>"; };
 		34CD4742296D8D2C00516044 /* MyMenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMenuItem.swift; sourceTree = "<group>"; };
+		34CD4744296D9A0500516044 /* MyMoreAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMoreAccountsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			children = (
 				34CD471F296D776300516044 /* MyView.swift */,
 				34CD4729296D861900516044 /* MySummaryView.swift */,
+				34CD4744296D9A0500516044 /* MyMoreAccountsView.swift */,
 				34CD472D296D89FB00516044 /* SideMenu */,
 			);
 			path = My;
@@ -275,6 +278,7 @@
 				34CD472F296D8A1600516044 /* SettingView.swift in Sources */,
 				34CD4743296D8D2C00516044 /* MyMenuItem.swift in Sources */,
 				34CD473B296D8A8500516044 /* BestFriendsView.swift in Sources */,
+				34CD4745296D9A0500516044 /* MyMoreAccountsView.swift in Sources */,
 				34CD4728296D778300516044 /* HomeView.swift in Sources */,
 				34CD4735296D8A5A00516044 /* QRCodeView.swift in Sources */,
 				34CD4724296D777300516044 /* ReelsView.swift in Sources */,

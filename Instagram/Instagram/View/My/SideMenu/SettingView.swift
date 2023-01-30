@@ -15,7 +15,7 @@ struct SettingView: View {
                 
                 HStack {
                     Spacer()
-                    Text("설정설정설정설정설정설정설정설정설정설정설정")
+                    Text("설정 설정 설정 설정 설정 설정 설정 설정")
                     Spacer()
                 }
             }

@@ -9,7 +9,16 @@ import SwiftUI
 
 struct BestFriendsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView {
+            ForEach(0..<50) {_ in
+                
+                HStack {
+                    Spacer()
+                    Text("친한 친구   친한 친구   친한 친구   친한 친구")
+                    Spacer()
+                }
+            }
+        }
     }
 }
 

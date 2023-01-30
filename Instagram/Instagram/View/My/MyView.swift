@@ -10,7 +10,7 @@ import SwiftUI
 struct MyView: View {
     
     @State var menuOpened = false
-    @State var isPrivate: Bool = false
+    @State var isPrivate: Bool = true
     @State var moreAccounts: Bool = false
     @State var recommendPerson: Bool = false
     
@@ -66,6 +66,12 @@ struct MyView: View {
             .offset(x: menuOpened ? -UIScreen.main.bounds.width/1.23 : 0)
             .animation(.easeInOut(duration: 0.35), value: menuOpened)
         } // ZStack
+        .sheet(isPresented: $moreAccounts) {
+            MyMoreAccountsView(moreAccounts: $moreAccounts)
+                .presentationDetents([.height(UIScreen.main.bounds.width/1.3)])
+                .presentationDragIndicator(.visible)
+
+        }
         
     }
     
