@@ -9,10 +9,25 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack {
-            HomeNaviBar()
-            
-        }
+        
+        ScrollView {
+                GeometryReader { geometry in
+                    ZStack {
+                        VStack {
+                            HomeNaviBar()
+                            
+                            Spacer()
+                        } // VStack
+                        .frame(width: geometry.size.width, height: geometry.size.height)
+                        
+                        VStack {
+                            HomeStoryCell()
+                            HomeFeedView()
+                        } // VStack
+                        .frame(width: geometry.size.width, height: geometry.size.height)
+                    } // ZStack
+                } // GeometryReader
+        } // ScrollView
     }
 }
 

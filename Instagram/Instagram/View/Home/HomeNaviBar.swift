@@ -11,22 +11,32 @@ struct HomeNaviBar: View {
     var body: some View {
         HStack {
             // MARK: - Logo Button
-            Button {
+            Menu {
+                Button {
+                    
+                } label: {
+                    Label("팔로잉", systemImage: "person.2")
+                } // Button
                 
+                Button {
+                    
+                } label: {
+                    Label("즐겨찾기", systemImage: "star")
+                } // Button
+
             } label: {
                 HStack {
                     Image("Logo")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                        .frame(width: 100, height: 100)
+                        .frame(width: 100, height: 30)
                     
                     Image(systemName: "chevron.down")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 10,height: 10)
-                }
-            } // Button: Logo
-            
+                } // HStack
+            } // Menu
             Spacer()
             
             HStack(spacing: 20) {
@@ -38,8 +48,8 @@ struct HomeNaviBar: View {
                 } // Button: Add
                 
                 // MARK: - Notification Button
-                Button {
-                    
+                NavigationLink {
+                    NotificationView()
                 } label: {
                     Image("Like")
                 }
@@ -51,8 +61,6 @@ struct HomeNaviBar: View {
                     Image("DM")
                 }
             }
-
-
         } // HStack
         .padding(.horizontal)
     }
